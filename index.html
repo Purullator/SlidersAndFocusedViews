@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="js/jsindex.js"></script>
+    <title>Gaming House Portal</title>
+  </head>
+  <body>
+    <header class="flex-container">
+      <figure class="flex1">
+        <a href="index.html"><img src="img/gaminglogo.jpg" alt="logo" /></a>
+      </figure>
+      <h1>THE HOUSE OF GAMING</h1>
+    </header>
+
+    <nav id="menu" class="flex-container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Gaming</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ul>
+
+      <form id="login" class="flex1">
+        <input type="text" name="user" placeholder="user" />
+        <input type="password" name="password" placeholder="pass" />
+        <input type="submit" name="login" value="login" />
+        <label><a href="register.html">Sign Up</a></label>
+        <label><a href="login.html">Login</a></label>
+      </form>
+
+      <form id="searcher" method="post">
+        <datalist id="interests">
+          <option value="Best Gaming Pc's"></option>
+          <option value="RTX 3090"></option>
+          <option value="ASUS TUGH"></option>
+          <option value="RAM 3500x"></option>
+          <option value="intel i9 12500K"></option>
+          <option value="Gaming and getting high"></option>
+        </datalist>
+
+        <input
+          type="search"
+          name="search"
+          list="interests"
+          placeholder="Search..."
+        />
+        <input type="image" src="img/lupa.png" alt="lupa" />
+      </form>
+    </nav>
+
+    <main class="flex-container">
+      <aside class="flex1" id="contentPic">
+        <figure>
+          <img src="img/aboutpic.jpg" alt="constructPc" />
+          <figcaption>
+            The best about this image is that the pc has a floppy disk
+            compartment
+          </figcaption>
+        </figure>
+      </aside>
+      <div class="flex2" id="content1">
+        <h2>Why choose House of Gaming</h2>
+        <p>
+          Here at the House of Gaming we try to build the best pc machines
+          within a price range of your needs.
+        </p>
+        <p>
+          A lot of selling points on the internet already offer a building
+          guideline to make the user think which is the best option to choose in
+          each component. This doesn't always work because new hardware is being
+          released all the time. So in House of gaming we try to ensure that you
+          get the best hardware possible at the moment.
+        </p>
+        <p>
+          We count with the best hardware brands and thus, with the best
+          machinery available, one of many of them are:
+        </p>
+      </div>
+    </main>
+    <div id="brands" class="flex1 flex-container">
+      <a href="https://www.razer.com/" target="_blank"
+        ><img src="img/razerlogo.webp" alt="razer"
+      /></a>
+      <a href="https://es.msi.com/" target="_blank"
+        ><img src="img/msilogo.jpg" alt="msi"
+      /></a>
+      <a href="https://www.asus.com/es/" target="_blank"
+        ><img src="img/asuslogo.png" alt="asus"
+      /></a>
+      <a
+        href="https://www.intel.com/content/www/us/en/homepage.html"
+        target="_blank"
+        ><img src="img/intellogo.jpg" alt="intel"
+      /></a>
+      <a href="https://www.nvidia.com/es-es/" target="_blank"
+        ><img src="img/nvidialogo.jpg" alt="nvidia"
+      /></a>
+      <a href="https://www.gigabyte.com/" target="_blank"
+        ><img src="img/gigabytelogo.jpg" alt="gigabyte"
+      /></a>
+      <a href="https://www.logitech.com/es-es" target="_blank"
+        ><img src="img/logitechlogo.jpg" alt="logitech"
+      /></a>
+      <a href="https://www.benq.eu/es-es/index.html" target="_blank"
+        ><img src="img/benqlogo.jpg" alt="benq"
+      /></a>
+    </div>
+    <div class="flex-container">
+      <div class="flex1" id="content2">
+        <h2>Learning how to know what I need for my PC</h2>
+        <p>
+          One of the most important things to know in this industry is that it
+          advances constantly and it is hard to always have the last ultimate
+          gaming pc.
+        </p>
+        <p>
+          One thing we can know is that if we choose a strong pc, we'll ensure 4
+          years of running everything perfectly in our system. We need to make
+          sure that we do all the maintenance available for our equipment (both
+          hardware and software).
+        </p>
+      </div>
+      <div class="flex1">
+        <figure id="systemImg">
+          <img src="img/whichsystem.jpeg" alt="system" />
+          <figcaption>
+            Our "setups" always offer one of the most efficient and powerful
+            equipments
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="flex-container flex1" id="sliderTitle">
+      <h2>Get to choose between some of the top gaming setups</h2>
+    </div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img/wildsetup.jpg" style="width: 100%" />
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img/crazysetup.jpg" style="width: 100%" />
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img/serpentsetup.jpg" style="width: 100%" />
+        <div class="text">Caption Three</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next1" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot1" onclick="currentSlide(1)"></span>
+      <span class="dot1" onclick="currentSlide(2)"></span>
+      <span class="dot1" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div id="cookies">
+      <div id="divC">
+        <input type="checkbox" id="accept" />
+        <label>Accept all cookies</label><br />
+        <label>This site uses cookies to make the navegation smoother.</label
+        ><br />
+        <button id="btnCook">Accept</button><br />
+        <output id="message"></output>
+      </div>
+    </div>
+    <footer class="flex-container">
+      <div class="flex1 author">
+        <p><a href="#">About Us</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <p><a href="#">Privacy Policy</a></p>
+      </div>
+      <div class="flex1">
+        <a
+          href="https://es.linkedin.com/"
+          target="_blank"
+          class="fa fa-linkedin"
+        ></a>
+        <a
+          href="https://www.youtube.com/"
+          target="_blank"
+          class="fa fa-youtube"
+        ></a>
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          href="https://twitter.com/?lang=es"
+          target="_blank"
+          class="fa fa-twitter"
+        ></a>
+        <a
+          href="https://www.google.es/"
+          target="_blank"
+          class="fa fa-google"
+        ></a>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="fa fa-instagram"
+        ></a>
+      </div>
+    </footer>
+    <script>
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName('mySlides');
+        let dots = document.getElementsByClassName('dot1');
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(' active1', '');
+        }
+        slides[slideIndex - 1].style.display = 'block';
+        dots[slideIndex - 1].className += ' active1';
+      }
+    </script>
+  </body>
+</html>

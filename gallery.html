@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="js/javascript.js"></script>
+    <title>Gallery</title>
+  </head>
+  <body>
+    <header class="flex-container">
+      <figure class="flex1">
+        <a href="index.html"><img src="img/gaminglogo.jpg" alt="logo" /></a>
+      </figure>
+      <h1>THE HOUSE OF GAMING</h1>
+    </header>
+
+    <nav id="menu" class="flex-container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="#">Gaming</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ul>
+
+      <form id="login" class="flex1">
+        <input type="text" name="user" placeholder="user" />
+        <input type="password" name="password" placeholder="pass" />
+        <input type="submit" name="login" value="login" />
+        <label><a href="register.html">Sign Up</a></label>
+        <label><a href="login.html">Login</a></label>
+      </form>
+
+      <form id="searcher" method="post">
+        <datalist id="interests">
+          <option value="Best Gaming Pc's"></option>
+          <option value="RTX 3090"></option>
+          <option value="ASUS TUGH"></option>
+          <option value="RAM 3500x"></option>
+          <option value="intel i9 12500K"></option>
+          <option value="Gaming and getting high"></option>
+        </datalist>
+
+        <input
+          type="search"
+          name="search"
+          list="interests"
+          placeholder="Search..."
+        />
+        <input type="image" src="img/lupa.png" alt="lupa" />
+      </form>
+    </nav>
+
+    <div class="flex-container flex1">
+      <ul class="migas">
+        <li><a href="index.html">Home</a></li>
+        <li>Gallery</li>
+      </ul>
+    </div>
+
+    <div class="flex-container flex1" id="galleryTitle">
+      <h2>Gallery of Best-Selling Products</h2>
+    </div>
+    <div class="flex-container">
+      <figure class="flex1" id="welcomepic">
+        <img />
+        <figcaption id="btns">
+          <a class="previous round">&#8249;</a>
+          <a class="next round">&#8250;</a>
+        </figcaption>
+      </figure>
+    </div>
+
+    <footer class="flex-container">
+      <div class="flex1 author">
+        <p><a href="#">About Us</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <p><a href="#">Privacy Policy</a></p>
+      </div>
+      <div class="flex1">
+        <a
+          href="https://es.linkedin.com/"
+          target="_blank"
+          class="fa fa-linkedin"
+        ></a>
+        <a
+          href="https://www.youtube.com/"
+          target="_blank"
+          class="fa fa-youtube"
+        ></a>
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          href="https://twitter.com/?lang=es"
+          target="_blank"
+          class="fa fa-twitter"
+        ></a>
+        <a
+          href="https://www.google.es/"
+          target="_blank"
+          class="fa fa-google"
+        ></a>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="fa fa-instagram"
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
